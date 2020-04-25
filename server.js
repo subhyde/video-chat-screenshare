@@ -4,11 +4,11 @@ const app = express();
 let server;
 let port;
 if (credentials.key && credentials.cert) {
-    const https = require('https');
+    const https = require('http');
     server = https.createServer(credentials, app);
-    port = 443;
+    port = 8080;
 } else {
-    const http = require('http');
+    const http = require('https');
     server = http.createServer(app);
     port = 3000;
 }
