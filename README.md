@@ -1,9 +1,11 @@
 # Video Chat
 
-[Slides](http://slides.com/basscord/webrtc-video-streaming/) | [Demo](https://video-chat.basscord.co/your-clever-room-name)
+Simple app that allows peer to peer video chats as well as screen share.
 
-Simple app that allows peer to peer video chats.
+Create a room by going to https://gentle-woodland-13685.herokuapp.com/ 
 
-Create a room by going to [https://video-chat.basscord.co/](https://video-chat.basscord.co/)[room-name-goes-here]
+you can add your room code following the /
+
+for example: https://gentle-woodland-13685.herokuapp.com/test-room
 
 Send that url to a friend and video chatting will commence.
