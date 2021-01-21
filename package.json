@@ -9,8 +9,13 @@
     "debug": "node --nolazy --inspect --debug-brk=5858 ./server.js"
   },
   "dependencies": {
+    "@heroku-cli/plugin-buildpacks": "^7.43.0",
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
+    "cli-ux": "^5.5.1",
     "express": "^4.13.4",
-    "heroku": "^7.47.10",
+    "got": "^11.8.1",
+    "phoenix": "^1.5.7",
     "socket.io": "1.4.*"
   },
   "license": "ISC",
