@@ -16,7 +16,7 @@
     "express": "^4.13.4",
     "got": "^11.8.1",
     "phoenix": "^1.5.7",
-    "socket.io": "1.4.*"
+    "socket.io": "2.4.*"
   },
   "license": "ISC",
   "devDependencies": {
